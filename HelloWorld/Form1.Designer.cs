@@ -47,9 +47,10 @@
             this.lblHelloWorld.AutoSize = true;
             this.lblHelloWorld.Location = new System.Drawing.Point(379, 196);
             this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(35, 13);
+            this.lblHelloWorld.Size = new System.Drawing.Size(38, 13);
             this.lblHelloWorld.TabIndex = 1;
-            this.lblHelloWorld.Text = "label1";
+            this.lblHelloWorld.Text = "--Sup--";
+            this.lblHelloWorld.Click += new System.EventHandler(this.lblHelloWorld_Click);
             // 
             // Form1
             // 

@@ -19,8 +19,15 @@ namespace HelloWorld
 
         private void btnClickThis_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "Hello World!";
-            
+            if (lblHelloWorld.Text != "Hello World!")
+                lblHelloWorld.Text = "Hello World!";
+            else
+                lblHelloWorld.Text = "--SUP--";
+        }
+
+        private void lblHelloWorld_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
